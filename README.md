@@ -1,27 +1,72 @@
-Overview
+# AI-Based Autonomous Vehicle System
 
-The AI-Based Autonomous Vehicle System leverages sensor fusion, AI, and path planning algorithms to enable self-driving capabilities. It integrates LiDAR and camera data for obstacle detection and real-time decision-making, ensuring safe and efficient navigation.
+## Overview
+The **AI-Based Autonomous Vehicle System** leverages sensor fusion, AI, and path planning algorithms to enable self-driving capabilities. It integrates LiDAR and camera data for obstacle detection and real-time decision-making, ensuring safe and efficient navigation.
 
-Features
+## Features
+- 🚗 **Autonomous Navigation** – Self-driving capabilities with AI-driven decision-making.
+- 🛑 **Real-Time Obstacle Detection** – Uses LiDAR and camera data for accurate environment perception.
+- 🧠 **AI-Powered Path Planning** – Advanced algorithms for route optimization.
+- 🔄 **Sensor Fusion Technology** – Integrates multiple sensor inputs for enhanced accuracy.
+- 📡 **Vehicle-to-Infrastructure Communication** – Enables seamless interaction with traffic systems.
 
-🚗 Autonomous Navigation – Self-driving capabilities with AI-driven decision-making.
+## Repository Structure
+```
+Autonomous-Vehicle-System/
+│── sensors/               # LiDAR and camera data processing
+│── ai_model/              # Machine learning models for decision-making
+│── navigation/            # Path planning and control algorithms
+│── data/                  # Collected training and test data
+│── scripts/               # Utility scripts for testing and validation
+│── results/               # Logs and simulation outputs
+│── main.py                # System execution file
+│── requirements.txt       # Dependencies
+│── README.md              # Project documentation
+```
 
-🛑 Real-Time Obstacle Detection – Uses LiDAR and camera data for accurate environment perception.
+## Technologies Used
+- **Programming Language**: Python, C++
+- **Computer Vision**: OpenCV, YOLO, TensorFlow
+- **Sensor Integration**: ROS (Robot Operating System), LiDAR SDK
+- **Machine Learning**: PyTorch, Scikit-Learn
+- **Path Planning**: A* Algorithm, RRT (Rapidly-exploring Random Tree)
 
-🧠 AI-Powered Path Planning – Advanced algorithms for route optimization.
+## Installation
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.8+
+- ROS (Robot Operating System)
+- Required Python libraries (see `requirements.txt`)
 
-🔄 Sensor Fusion Technology – Integrates multiple sensor inputs for enhanced accuracy.
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Autonomous-Vehicle-System.git
 
-📡 Vehicle-to-Infrastructure Communication – Enables seamless interaction with traffic systems.
+# Navigate to the project directory
+cd Autonomous-Vehicle-System
 
-Technologies Used
+# Install dependencies
+pip install -r requirements.txt
 
-Programming Language: Python, C++
+# Run the system
+python main.py
+```
 
-Computer Vision: OpenCV, YOLO, TensorFlow
+## Usage
+1. **Start the system**
+   ```bash
+   python main.py
+   ```
+2. **Load sensor data for real-time processing.**
+3. **Observe AI-driven path planning and obstacle avoidance.**
+4. **Analyze vehicle navigation performance using simulation outputs.**
 
-Sensor Integration: ROS (Robot Operating System), LiDAR SDK
+## Contributors
+- *Bhavesh Mishra (Lead Developer)*
 
-Machine Learning: PyTorch, Scikit-Learn
+## Contributing
+Contributions are welcome! If you find any issues or want to improve the project, feel free to fork the repository and submit a pull request.
 
-Path Planning: A* Algorithm, RRT (Rapidly-exploring Random Tree)
+---
+Developed with ❤️ to drive the future of autonomous mobility.
